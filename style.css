@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Digital";
+    src: url(digital-7.regular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: palegoldenrod;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    color: navy;
+}
+.frame{
+    width: 450px;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    font-family: "Digital";
+    font-size: 80px;
+    font-weight: 500;
+    color: navy;
+}
